@@ -18,6 +18,12 @@ body {
 
 }
 
+.parent {
+    display: flex;
+}
+
+
+
 #nav {
     background-color: #6B9;
     border-bottom: 2px dashed #487;

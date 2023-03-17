@@ -4,7 +4,8 @@
 
 body {
     background-color: #82ddb5;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
     background-image: url('img/illustration.gif'), url('img/texture.jpg');
     background-position: center 280px, left top;
     background-repeat: no-repeat, repeat-x;
@@ -80,6 +81,7 @@ body {
 }
 
 #when {
+    margin-top: 0px;
     background-image: url(img/wires.png);
     background-color:rgba(0, 90, 128, 0.559) ;
     text-align: center;

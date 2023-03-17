@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
-* { outline: red 1px solid; } 
+/* { outline: red 1px solid; } */
 
 body {
-    background-color: #82DDB5;
+    background-color: #82ddb5;
+    margin-top: 0;
     background-image: url('img/illustration.gif'), url('img/texture.jpg');
     background-position: center 280px, left top;
     background-repeat: no-repeat, repeat-x;
     background-size: 800px, auto;
     font-family: 'Quicksand', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    
+
 
 }
 
@@ -24,7 +29,8 @@ body {
 
 #header {
     text-align: center;
-    margin-top: 40      px;
+    margin-top: 40px;
+    margin-bottom: 350px;
     
 }
 
@@ -50,4 +56,51 @@ body {
     margin-top: 25px;
     padding: 15px 30px;
 
+}
+
+#why {
+    background-color: #6B9;
+    margin-top: 0px;
+    
+
+
+
+}
+
+#what {
+    
+    background-color: rgba(250, 235, 215, 0.756);
+    opacity: 1;
+}
+
+#sponsor_logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+#when {
+    background-image: url(img/wires.png);
+    background-color:rgba(0, 90, 128, 0.559) ;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#where {
+    margin-top: 0px;
+    background-image: url(img/map.gif);
+    height: 500px;
+    background-size: cover;
+    justify-content: center;
+}
+
+#who {
+    background-color: aliceblue;
+    
+}
+
+#footer {
+    height: 100;
+    display: flex;
+    justify-content: center;
 }

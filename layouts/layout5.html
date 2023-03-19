@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Layout 5</title>    
+    
+        <style>
+            div{
+                outline: 1px solid black;
+            }
+            #container {
+                display:grid; /* Defines the grid as a grid */
+                grid-template-columns: 1fr 1fr 1fr; /* lays out the columns for the grid*/
+                margin: auto; /* fractional units, four quartors made up of 1fr */
+                max-width: 800px;
+            }
+            #blue {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                padding: 20px;
+                background-color: blue;
+                grid-column-start: 1; grid-column-end: 4;
+                grid-column: 1/4;
+                height: 200px;
+
+            }
+            .red {               
+                background-color: red;
+                height: 400px;
+                padding: 20px;
+
+            }
+
+            #green {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                padding: 20px;
+                background-color: lime;
+                grid-column: 1/4;
+                height: 200px;
+            }
+            .yellow {
+                background-color: yellow;
+                margin: 20px;
+            }
+            .smallbox {
+                grid-column: 4/5;
+
+            }
+            .thinbox {
+                grid-column: 1/2;
+            }
+            .bigbox {
+                grid-column: 2/4;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+
+            }
+            .big {
+                grid-column: 2/4;
+                grid-row: 1/4;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="blue">
+                <div class="yellow smallbox"></div>
+            </div>
+            <div class="red thinbox"></div>
+            <div class="red bigbox">
+                <div class="yellow"></div>
+                <div class="yellow big"></div>
+            </div>  
+            <div id="green"></div>
+        </div>
+    </body>
+</html>

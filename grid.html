@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+    <head>
+        <Meta charset="utf-8">
+        <title>CSS Grid Layout</title>
+        <style>
+            div {outline: 1px solid black;}
+            #container {
+                display:grid; /* defines the grid as a grid */
+                grid-template-columns: 1fr 1fr 1fr 1fr; /* lays out the columns for the grid */
+                margin:auto; /* fractional units, four quarters of 1fr */
+                max-width: 800px;
+            }
+            #blue {
+                background-color: blue;
+                grid-column: 1 / 5;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="blue"></div>
+            <div id="red"></div>
+            <div id="green"></div>
+
+        </div>
+
+    </body>
+
+</html>

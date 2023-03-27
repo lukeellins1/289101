@@ -81,3 +81,30 @@ body{
     max-width: 780px;
     width: 90%;
 }
+
+.services {
+    margin-left: 30px;
+    background-color: #F2F2F2;
+    height: auto;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    max-width: 800;
+
+}
+
+.customdesign{
+    background-color: blue;
+    grid-column: 1/4;
+    height: 400px;
+}
+
+.box2 {
+    background-color: green;
+    grid-column: 2/4;
+    height: 400px;
+}

@@ -2,6 +2,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(123, 211, 229);
+    
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+#home {
+    
+    height: 200px;
+    padding-bottom: 100px;
+    
 }
 
 .header {
@@ -12,9 +24,22 @@ body {
 
 .nav {
     display: grid;
+    
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
+}
+
+#galleryofimages {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    
+}
+
+#travelimages {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    
 }
 
 .links{
@@ -38,8 +63,20 @@ body {
 
 }
 
-.photoheading{
+.homeheading{
     text-align: center;
+    
+}
+
+.photoheading{
+    
+    text-align: center;
+    margin-top: 100px;
+}
+
+.travelheading {
+    text-align: center;
+    margin-top: 100px;
 }
 .photolibrary {
     margin-top: 60px;
@@ -58,16 +95,26 @@ body {
 
 .gallery img{
     width:100%
-    height:auto; 
+    
 }
 
 .photosection{
     background-color: blue;
+    margin-top: 200px;
 }
 
 .about{
-    padding-top: px;
-    margin: 10px;
+    background-color: grey;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
     clear: left;
+    
+    padding-bottom: 10px;
 
+}
+
+.aboutheading {
+    text-align:left
 }

@@ -1,49 +1,104 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Lukes Portfolio</title>
     <link rel="stylesheet" href="Styles.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+        />
 </head>
     <body>
     <div class="header">
+        
             
         <div class="nav">
             <div class="logo">
                 <img id="logo" src="imgs/lukelogo.png">
             <div class="links">
                 <a href>Home</a>
+                <a href="#travelimages">Travel</a>
                 <a href="#about">About</a>
+
             </div>
 
         </div>
     </div>
-    <div id="photosection">
-        <h2 class="photoheading">Photos</h1>
-        <div class ="photolibrary">
-            <a target="_blank" href="imgs/bus.jpg">
-                <img src="imgs/bus.jpg" alt="bus driving past" height="200" width="200">
-            </a>            
-            <div class="desc">Bus driving</div>
-        </div>
-        <div class ="photolibrary">
-            <a target="_blank" href="imgs/bus.jpg">
-                <img src="imgs/bus.jpg" alt="bus driving past" height="200" width="200">
-            </a>            
-            <div class="desc">tEST</div>
-        </div>
-        <div class ="photolibrary">
-            <a target="_blank" href="imgs/bus.jpg">
-                <img src="imgs/bus.jpg" alt="bus driving past" height="200" width="200">
-            </a>            
-            <div class="desc">tEST</div>
-        </div> 
+
+    <div class="Home">
+        <h1 align="center" >I am Luke Ellins,
+            <br>and this is my portfolio website
+        </h1>
     </div>
+
+    <div id="galleryofimages">  
+        <h2 class="photoheading">Photography</h2>
+        <a 
+            data-fancybox="gallery"
+            data-src="imgs/bus.jpg"
+            data-caption="Test caption"
+        >
+            <img src="imgs/bus.jpg" height="200" width="200" alt="bus driving pass">
+        </a>
+        <a data-fancybox="gallery" data-src="imgs/lukelogo.png">
+            <img src="imgs/lukelogo.png" height="200" width="200">
+        </a>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+            Fancybox.bind('[data-fancybox="gallery"]', {
+              //
+            });    
+          </script>
+    </div> 
     
-    <div class="about">
-        <hr/>    
+    <div id="galleryofimages">  
+        <h2 class="photoheading">Photography</h2>
+        <a 
+            data-fancybox="gallery"
+            data-src="imgs/bus.jpg"
+            data-caption="Test caption"
+        >
+            <img src="imgs/bus.jpg" height="200" width="200" alt="bus driving pass">
+        </a>
+        <a data-fancybox="gallery" data-src="imgs/lukelogo.png">
+            <img src="imgs/lukelogo.png" height="200" width="200">
+        </a>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+            Fancybox.bind('[data-fancybox="gallery"]', {
+              //
+            });    
+          </script>
+    </div> 
+
+    <div id="travelimages">  
+        <h2 class="travelheading">Travel Photography</h2>
+        <a 
+            data-fancybox="gallery"
+            data-src="imgs/IMG-6266.JPG"
+            data-caption="Test caption"
+        >
+            <img src="imgs/IMG-6266.JPG" height="auto" width="200" alt="bus driving pass">
+        </a>
+        <a data-fancybox="gallery" data-src="imgs/IMG-6280.jpg">
+            <img src="imgs/IMG-6280.JPG" height="auto" width="200">
+        </a>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+            Fancybox.bind('[data-fancybox="gallery"]', {
+              //
+            });    
+          </script>
+    </div> 
+    
+    <div class="about" id="about">
+
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec quam libero. Morbi aliquet nunc vitae diam rhoncus, at aliquam dolor fringilla. Quisque faucibus sit amet magna fringilla gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ut enim feugiat, porttitor tellus sed, malesuada neque. Aenean aliquam sollicitudin bibendum. Aenean fringilla, enim ac iaculis maximus, nisl nunc auctor nibh, ut vulputate ipsum leo vitae orci. Sed ornare turpis vitae dui pulvinar, lacinia tempor felis pharetra. Curabitur eget nisl id mauris pellentesque ullamcorper nec ac nibh.</p> 
+        <p class="aboutheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <br> Proin nec quam libero. Morbi aliquet nunc vitae diam rhoncus, at aliquam dolor fringilla. Quisque faucibus sit amet magna fringilla gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ut enim feugiat, porttitor tellus sed, malesuada neque. Aenean aliquam sollicitudin bibendum. Aenean fringilla, enim ac iaculis maximus, nisl nunc auctor nibh, ut vulputate ipsum leo vitae orci. Sed ornare turpis vitae dui pulvinar, lacinia tempor felis pharetra. Curabitur eget nisl id mauris pellentesque ullamcorper nec ac nibh.</p> 
         
     </div>
     </body>

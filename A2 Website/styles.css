@@ -1,10 +1,24 @@
 .test{
+    clear: left;
+    
+    background-color: rgb(96, 63, 43);
+    height: 20px;
+    padding-bottom: 1000px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
 
 }
 
+.extra {
+    max-height: 100;
+
+}
+
+
 h1{
     height: 100;
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 #container{

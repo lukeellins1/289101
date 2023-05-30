@@ -3,12 +3,36 @@
     
     background-color: rgb(196, 106, 49);
     height: 20px;
-    padding-bottom: 150px;
+    padding-bottom: 500px;
     padding-right: 100px;
     padding-left: 10px;
     padding-top: 20px;
     
 
+}
+
+.gridcontainer{
+    display: grid;
+}
+
+.griditem{
+    background-color: white;
+}
+
+.underline{
+
+}
+
+h1{
+    height: 100;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(71, 71, 71);
 }
 
 
@@ -45,7 +69,7 @@
 }
 
 .about{
-    background-color: aqua;
+    background-color: rgb(191, 194, 152);
     padding-bottom: 100px;
     padding-left: 10px;
     padding-right: 100px;
@@ -59,22 +83,9 @@
 }
 
 
-h1{
-    height: 100;
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: ;
-}
 
 #container{
     display: grid;
     grid
 } 
 
-h1, hr{
-    line-height: 0;
-}
